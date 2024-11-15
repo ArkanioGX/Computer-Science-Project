@@ -1,0 +1,15 @@
+C:/Users/mollet.clarence/source/repos/Computer Science/build/CMakeFiles/Experimental.dir
+C:/Users/mollet.clarence/source/repos/Computer Science/build/CMakeFiles/Nightly.dir
+C:/Users/mollet.clarence/source/repos/Computer Science/build/CMakeFiles/Continuous.dir
+C:/Users/mollet.clarence/source/repos/Computer Science/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/mollet.clarence/source/repos/Computer Science/build/CMakeFiles/ComputerScience.dir
+C:/Users/mollet.clarence/source/repos/Computer Science/build/CMakeFiles/PACKAGE.dir
+C:/Users/mollet.clarence/source/repos/Computer Science/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/mollet.clarence/source/repos/Computer Science/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/mollet.clarence/source/repos/Computer Science/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/mollet.clarence/source/repos/Computer Science/build/src/Codility/CMakeFiles/Codility.dir
+C:/Users/mollet.clarence/source/repos/Computer Science/build/src/Codility/CMakeFiles/PACKAGE.dir
+C:/Users/mollet.clarence/source/repos/Computer Science/build/src/Codility/CMakeFiles/RUN_TESTS.dir
+C:/Users/mollet.clarence/source/repos/Computer Science/build/src/CityTravel/CMakeFiles/CityTravel.dir
+C:/Users/mollet.clarence/source/repos/Computer Science/build/src/CityTravel/CMakeFiles/PACKAGE.dir
+C:/Users/mollet.clarence/source/repos/Computer Science/build/src/CityTravel/CMakeFiles/RUN_TESTS.dir

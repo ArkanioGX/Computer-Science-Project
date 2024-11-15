@@ -1,7 +1,0 @@
-3-1
-#include <cmath>
-
-int solution(int X, int Y, int D) {
-    double dist = Y - X;
-    return std::ceil(dist/D);
-}

@@ -3,8 +3,6 @@
 #include <vector>
 #include <string>
 
-
-
 class City {
 public:
     City() :name(""), pathsList(std::vector<class Path*>()) {};
@@ -53,6 +51,8 @@ struct pathFindingData {
     }
 };
 
+Path* getMostValuablePath(City* cityStart, std::vector<City*> unvisitedCity);
+
 int main()
 {
 
@@ -91,5 +91,5 @@ int main()
 }
 
 Path* getMostValuablePath(City* cityStart, std::vector<City*> unvisitedCity) {
-
+    return nullptr;
 }
