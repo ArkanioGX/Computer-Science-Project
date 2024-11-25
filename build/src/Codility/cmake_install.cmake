@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/mollet.clarence/source/repos/Computer Science/src/Codility
+# Install script for directory: C:/Users/clare/Documents/GitHub/Computer-Science-Project/src/Codility
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

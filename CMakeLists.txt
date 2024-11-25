@@ -10,12 +10,12 @@ enable_testing()
 
 # subdirectories
 add_subdirectory(src/Codility)
-add_subdirectory(src/CityTravel)
+#add_subdirectory(src/CityTravel)
 
 
 # Executable and link
 add_executable(ComputerScience src/main.cpp)
-target_link_libraries(ComputerScience CityTravel Codility)
+target_link_libraries(ComputerScience Codility)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

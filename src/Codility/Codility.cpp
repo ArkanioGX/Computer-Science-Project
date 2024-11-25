@@ -1,12 +1,13 @@
 #include "Codility.h"
 
-void Codility::LaunchTest()
+void LaunchTest()
 {
     int i;
+    std::cout << "Hello";
     std::cin >> i;
 }
 
-int Codility::Exercice1_1(int N)
+int Exercice1_1(int N)
 {
     int zNumber = 0;
     int zNumberMax = 0;
@@ -27,7 +28,7 @@ int Codility::Exercice1_1(int N)
     return zNumberMax;
 }
 
-std::vector<int> Codility::Exercice2_1(std::vector<int> &A, int K)
+std::vector<int> Exercice2_1(std::vector<int> &A, int K)
 {
     std::vector<int> rotatedVec(A);
     for (unsigned int i = 0; i < A.size(); i++){
@@ -37,7 +38,7 @@ std::vector<int> Codility::Exercice2_1(std::vector<int> &A, int K)
     return rotatedVec;
 }
 
-int Codility::Exercice2_2(std::vector<int> &A)
+int Exercice2_2(std::vector<int> &A)
 {
     std::unordered_map<int, unsigned int> list;
     for (unsigned int i = 0; i < A.size(); i++){
@@ -51,27 +52,27 @@ int Codility::Exercice2_2(std::vector<int> &A)
     return 0;
 }
 
-int Codility::Exercice3_1(int X, int Y, int D)
+int Exercice3_1(int X, int Y, int D)
 {
     double dist = Y - X;
     return std::ceil(dist/D);
 }
 
-double Codility::recursiveAdd(int n)
+double recursiveAdd(int n)
 {
     return n > 1 ? n + recursiveAdd(n-1) : n;
 }
 
-int Codility::Exercice3_2(std::vector<int> &A)
+int Exercice3_2(std::vector<int> &A)
 {
     double n = 0;
     for (unsigned int i = 0; i < A.size(); i++){
         n += A[i];
     }
-    return Codility::recursiveAdd(A.size()+1) - n;
+    return recursiveAdd(A.size()+1) - n;
 }
 
-int Codility::Exercice3_3(std::vector<int> &A)
+int Exercice3_3(std::vector<int> &A)
 {
     int minDiff = std::numeric_limits<int>::max();
     int sum1 = 0;

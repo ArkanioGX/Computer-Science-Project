@@ -2,6 +2,6 @@
 
 int main()
 {
-    Codility::LaunchTest();
+    LaunchTest();
     return 0;
 }
