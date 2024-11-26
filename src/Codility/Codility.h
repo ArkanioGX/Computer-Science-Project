@@ -9,6 +9,8 @@
 void LaunchTest();
 int Exercice1_1(int N);
 
+std::string arrayToString(std::vector<int> &A);
+
 std::vector<int> Exercice2_1(std::vector<int> &A, int K);
 
 int Exercice2_2(std::vector<int> &A);

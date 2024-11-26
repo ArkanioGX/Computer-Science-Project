@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\clare\Documents\GitHub\Computer-Science-Project\src\main.cpp">
+    <ClCompile Include="C:\Users\mollet.clarence\source\repos\Computer Science\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\clare\Documents\GitHub\Computer-Science-Project\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\mollet.clarence\source\repos\Computer Science\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{54732E29-E65C-361E-A8DF-332C823D303E}</UniqueIdentifier>
+      <UniqueIdentifier>{A1E4D6CD-B679-3983-973A-B51E99B7116F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

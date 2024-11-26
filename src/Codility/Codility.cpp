@@ -1,10 +1,45 @@
 #include "Codility.h"
+#include "random"
+#include <string> 
 
 void LaunchTest()
 {
     int i;
-    std::cout << "Hello";
-    std::cin >> i;
+    srand(time(NULL)*18064);
+    std::cout << "=====- Codility Exercices -=====" << std::endl;
+    std::cout << "===- Exerice 1 - 1 :" << std::endl;
+    
+    int input = std::rand() % 10000;
+    std::cout << "Input : " << input << std::endl;
+    int output = Exercice1_1(input);
+    std::cout << "===" << std::endl;
+    std::cout << "Output : " << output << std::endl;
+    srand(rand());
+
+
+    std::cout << "===- Exerice 2 - 1 :" << std::endl;
+    
+    std::vector<int> inputArray = {3, 8, 9, 7, 6};
+    input = 3;
+
+    std::cout << "Input Array : " << arrayToString(inputArray) << std::endl;
+    std::cout << "Input : " << input << std::endl;
+    std::vector<int> outputArray = Exercice2_1(inputArray,input);
+    std::cout << "===" << std::endl;
+    std::cout << "Output : " << arrayToString(outputArray) << std::endl;
+
+    
+}
+
+std::string arrayToString(std::vector<int> &A){
+    std::string str;
+    str.append("[");
+    for (int i = 0; i < A.size(); i++){
+        str.append(std::to_string(A[i]));
+        str.append(" ");
+    }
+    str.append("]");
+    return str;
 }
 
 int Exercice1_1(int N)
