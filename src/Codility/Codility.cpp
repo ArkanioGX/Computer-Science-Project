@@ -4,20 +4,17 @@
 
 void LaunchTest()
 {
-    int i;
-    srand(time(NULL)*18064);
     std::cout << "=====- Codility Exercices -=====" << std::endl;
-    std::cout << "===- Exerice 1 - 1 :" << std::endl;
+    std::cout << "===- Exerice 1 - 1 | Binary Gap :" << std::endl;
     
-    int input = std::rand() % 10000;
+    int input = 1041;
     std::cout << "Input : " << input << std::endl;
     int output = Exercice1_1(input);
     std::cout << "===" << std::endl;
-    std::cout << "Output : " << output << std::endl;
-    srand(rand());
+    std::cout << "Output : " << output << std::endl<< std::endl;
 
 
-    std::cout << "===- Exerice 2 - 1 :" << std::endl;
+    std::cout << "===- Exerice 2 - 1 | Cyclic Rotation :" << std::endl;
     
     std::vector<int> inputArray = {3, 8, 9, 7, 6};
     input = 3;
@@ -26,9 +23,45 @@ void LaunchTest()
     std::cout << "Input : " << input << std::endl;
     std::vector<int> outputArray = Exercice2_1(inputArray,input);
     std::cout << "===" << std::endl;
-    std::cout << "Output : " << arrayToString(outputArray) << std::endl;
+    std::cout << "Output : " << arrayToString(outputArray) << std::endl<< std::endl;
 
+    std::cout << "===- Exerice 2 - 2 | Odd Occurences In Array :" << std::endl;
     
+    inputArray = {9, 3, 9, 3, 9, 7, 9};
+
+    std::cout << "Input Array : " << arrayToString(inputArray) << std::endl;
+    output = Exercice2_2(inputArray);
+    std::cout << "===" << std::endl;
+    std::cout << "Output : " << output << std::endl<< std::endl;
+
+    std::cout << "===- Exerice 3 - 1 | Frog Jmp :" << std::endl;
+    
+    input = 10;
+    int input2 = 85;
+    int input3 = 30;
+
+    std::cout << "Input : X =" << input << " | Y = " << input2 << " D = " << input3 << std::endl;
+    output = Exercice3_1(input,input2,input3);
+    std::cout << "===" << std::endl;
+    std::cout << "Output : " << output << std::endl<< std::endl;
+
+    std::cout << "===- Exerice 3 - 2 | Perm Missing Elem :" << std::endl;
+    
+    inputArray = {2,3,1,5};
+
+    std::cout << "Input Array : " << arrayToString(inputArray) << std::endl;
+    output = Exercice3_2(inputArray);
+    std::cout << "===" << std::endl;
+    std::cout << "Output : " << output << std::endl<< std::endl;
+
+    std::cout << "===- Exerice 3 - 3 | Tape Equilibrium :" << std::endl;
+    
+    inputArray = {3,1,2,4,3};
+
+    std::cout << "Input Array : " << arrayToString(inputArray) << std::endl;
+    output = Exercice3_3(inputArray);
+    std::cout << "===" << std::endl;
+    std::cout << "Output : " << output << std::endl<< std::endl;
 }
 
 std::string arrayToString(std::vector<int> &A){
