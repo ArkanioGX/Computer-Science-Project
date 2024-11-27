@@ -173,6 +173,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\clare\Documents\GitHub\Computer-Science-Project\build\src\CityTravel\CityTravel.vcxproj">
+      <Project>{31F7ADD6-E080-392E-8720-B76042FF315F}</Project>
+      <Name>CityTravel</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\clare\Documents\GitHub\Computer-Science-Project\build\src\Codility\Codility.vcxproj">
       <Project>{D51F2E81-B376-338A-AE17-CBFB9698F914}</Project>
       <Name>Codility</Name>

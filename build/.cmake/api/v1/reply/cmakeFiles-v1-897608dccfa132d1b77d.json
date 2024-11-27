@@ -180,6 +180,9 @@
 		},
 		{
 			"path" : "src/Codility/CMakeLists.txt"
+		},
+		{
+			"path" : "src/CityTravel/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

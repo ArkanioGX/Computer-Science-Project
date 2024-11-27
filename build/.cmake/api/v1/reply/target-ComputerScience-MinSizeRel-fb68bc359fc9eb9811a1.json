@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Release/ComputerScience.exe"
+			"path" : "MinSizeRel/ComputerScience.exe"
 		},
 		{
-			"path" : "Release/ComputerScience.pdb"
+			"path" : "MinSizeRel/ComputerScience.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -45,7 +45,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -std:c++17 -MD"
 				}
 			],
 			"includes" : 
@@ -53,6 +53,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "C:/Users/clare/Documents/GitHub/Computer-Science-Project/src/Codility"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/clare/Documents/GitHub/Computer-Science-Project/src/CityTravel"
 				}
 			],
 			"language" : "CXX",
@@ -73,11 +77,15 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+			"backtrace" : 2,
+			"id" : "CityTravel::@7aa82a60a6bd5ea61740"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "Codility::@8b06260b8addd505e674"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "ComputerScience::@6890427a1f51a3e7e1df",
@@ -86,7 +94,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -MD",
 				"role" : "flags"
 			},
 			{
@@ -95,7 +103,12 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "src\\Codility\\Release\\Codility.lib",
+				"fragment" : "src\\Codility\\MinSizeRel\\Codility.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src\\CityTravel\\MinSizeRel\\CityTravel.lib",
 				"role" : "libraries"
 			},
 			{

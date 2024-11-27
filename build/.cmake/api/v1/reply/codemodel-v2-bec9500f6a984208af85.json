@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -20,12 +21,12 @@
 					"targetIndexes" : 
 					[
 						0,
-						2,
 						3,
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				{
@@ -40,6 +41,21 @@
 					"source" : "src/Codility",
 					"targetIndexes" : 
 					[
+						2
+					]
+				},
+				{
+					"build" : "src/CityTravel",
+					"jsonFile" : "directory-src.CityTravel-Debug-c381d7046b13d7e3f619.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/CityTravel",
+					"targetIndexes" : 
+					[
 						1
 					]
 				}
@@ -51,7 +67,8 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					],
 					"name" : "ComputerScience",
 					"targetIndexes" : 
@@ -63,7 +80,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -72,8 +90,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Debug-cd4496509e3c2232280d.json",
+					"jsonFile" : "target-ALL_BUILD-Debug-41ea07db0c34150f6f89.json",
 					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "CityTravel::@7aa82a60a6bd5ea61740",
+					"jsonFile" : "target-CityTravel-Debug-32f6bb11a95789336e35.json",
+					"name" : "CityTravel",
 					"projectIndex" : 0
 				},
 				{
@@ -86,7 +111,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ComputerScience::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ComputerScience-Debug-22c6de97b8b8de76be83.json",
+					"jsonFile" : "target-ComputerScience-Debug-499cbfd4eef6a8d390c4.json",
 					"name" : "ComputerScience",
 					"projectIndex" : 0
 				},
@@ -134,7 +159,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -146,12 +172,12 @@
 					"targetIndexes" : 
 					[
 						0,
-						2,
 						3,
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				{
@@ -166,6 +192,21 @@
 					"source" : "src/Codility",
 					"targetIndexes" : 
 					[
+						2
+					]
+				},
+				{
+					"build" : "src/CityTravel",
+					"jsonFile" : "directory-src.CityTravel-Release-c381d7046b13d7e3f619.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/CityTravel",
+					"targetIndexes" : 
+					[
 						1
 					]
 				}
@@ -177,7 +218,8 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					],
 					"name" : "ComputerScience",
 					"targetIndexes" : 
@@ -189,7 +231,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -198,8 +241,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Release-cd4496509e3c2232280d.json",
+					"jsonFile" : "target-ALL_BUILD-Release-41ea07db0c34150f6f89.json",
 					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "CityTravel::@7aa82a60a6bd5ea61740",
+					"jsonFile" : "target-CityTravel-Release-ebc6268629e9c36717f5.json",
+					"name" : "CityTravel",
 					"projectIndex" : 0
 				},
 				{
@@ -212,7 +262,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ComputerScience::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ComputerScience-Release-bf0852328fd96bc93d76.json",
+					"jsonFile" : "target-ComputerScience-Release-88b2a4b1a43b58f17872.json",
 					"name" : "ComputerScience",
 					"projectIndex" : 0
 				},
@@ -260,7 +310,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -272,12 +323,12 @@
 					"targetIndexes" : 
 					[
 						0,
-						2,
 						3,
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				{
@@ -292,6 +343,21 @@
 					"source" : "src/Codility",
 					"targetIndexes" : 
 					[
+						2
+					]
+				},
+				{
+					"build" : "src/CityTravel",
+					"jsonFile" : "directory-src.CityTravel-MinSizeRel-c381d7046b13d7e3f619.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/CityTravel",
+					"targetIndexes" : 
+					[
 						1
 					]
 				}
@@ -303,7 +369,8 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					],
 					"name" : "ComputerScience",
 					"targetIndexes" : 
@@ -315,7 +382,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -324,8 +392,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-MinSizeRel-cd4496509e3c2232280d.json",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-41ea07db0c34150f6f89.json",
 					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "CityTravel::@7aa82a60a6bd5ea61740",
+					"jsonFile" : "target-CityTravel-MinSizeRel-8a6746b412248f426ff9.json",
+					"name" : "CityTravel",
 					"projectIndex" : 0
 				},
 				{
@@ -338,7 +413,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ComputerScience::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ComputerScience-MinSizeRel-42f315734f15abde5f9c.json",
+					"jsonFile" : "target-ComputerScience-MinSizeRel-fb68bc359fc9eb9811a1.json",
 					"name" : "ComputerScience",
 					"projectIndex" : 0
 				},
@@ -386,7 +461,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -398,12 +474,12 @@
 					"targetIndexes" : 
 					[
 						0,
-						2,
 						3,
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				{
@@ -418,6 +494,21 @@
 					"source" : "src/Codility",
 					"targetIndexes" : 
 					[
+						2
+					]
+				},
+				{
+					"build" : "src/CityTravel",
+					"jsonFile" : "directory-src.CityTravel-RelWithDebInfo-c381d7046b13d7e3f619.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/CityTravel",
+					"targetIndexes" : 
+					[
 						1
 					]
 				}
@@ -429,7 +520,8 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					],
 					"name" : "ComputerScience",
 					"targetIndexes" : 
@@ -441,7 +533,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -450,8 +543,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-cd4496509e3c2232280d.json",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-41ea07db0c34150f6f89.json",
 					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "CityTravel::@7aa82a60a6bd5ea61740",
+					"jsonFile" : "target-CityTravel-RelWithDebInfo-40337257fbac9d430e88.json",
+					"name" : "CityTravel",
 					"projectIndex" : 0
 				},
 				{
@@ -464,7 +564,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ComputerScience::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ComputerScience-RelWithDebInfo-7fb2c26083a8388c7d50.json",
+					"jsonFile" : "target-ComputerScience-RelWithDebInfo-da46b1bc402b465e2474.json",
 					"name" : "ComputerScience",
 					"projectIndex" : 0
 				},

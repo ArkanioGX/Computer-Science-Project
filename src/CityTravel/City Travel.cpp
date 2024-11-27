@@ -1,59 +1,16 @@
 
-#include <iostream>
-#include <vector>
-#include <string>
+#include "City Travel.h"
+#include <limits>
 
-class City {
-public:
-    City() :name(""), pathsList(std::vector<class Path*>()) {};
-    City(std::string cname) : name(cname), pathsList(std::vector<class Path*>()) { std::cout << "City " << name << " created !!" << std::endl; };
+#define inf std::numeric_limits<int>::max();
 
-    void addPath(class Path* p) { if (std::find(pathsList.begin(), pathsList.end(),p) == pathsList.end()) pathsList.push_back(p); }
 
-    std::string getName() { return name; }
-private:
-    std::string name;
-    std::vector<class Path*> pathsList;
-
-    
-};
-
-class Path {
-public:
-    Path() = delete;
-    Path(City* c1, City* c2, float dist) : city1(c1), city2(c2), distance(dist) {
-        c1->addPath(this);
-        c2->addPath(this);
-
-        std::cout << "Path between " << city1->getName() << " and " << city2->getName() << " created !! " << std::endl;
-    };
-
-    City* getOtherCity(City* c1) {
-        return city1 != c1 ? city1 : city2;
-    }
-
-    float getDistance() {
-        return distance;
-    }
-private:
-    City* city1;
-    City* city2;
-    float distance;
-};
-
-struct pathFindingData {
-
-    City* dest;
-    float currDist;
-
-    bool operator==(const pathFindingData& pfd) {
-        return pfd.dest == dest;
-    }
-};
 
 Path* getMostValuablePath(City* cityStart, std::vector<City*> unvisitedCity);
 
-int main()
+std::vector<City*> City::list = {};
+
+void findPath()
 {
 
     //City Creations
@@ -79,17 +36,32 @@ int main()
     //D Paths
     path = new Path(cityD, cityE, 3);
 
-    std::vector<City*> cityRemaining;
+
+
+    std::vector<pathFindingData*> cityRemaining;
     std::vector<Path*> pathFound;
     City* start = cityA;
     City* check = start;
+
+{
+    std::vector<City*> cityList = City::list; 
+    for (int i = 0; i < cityList.size(); i++){
+        if (cityList[i] != start){
+            pathFindingData* pathData = new pathFindingData();
+            pathData->dest = cityList[i];
+            pathData->currDist = inf;
+            cityRemaining.push_back(pathData);
+        }
+    }
+
+    std::cout << "test";
+}
+    
+
+    //Pathfinding Begin
+
     while (cityRemaining.size() != 0) {
-        Path* p = getMostValuablePath(check, cityRemaining);
-        check = p->getOtherCity(check);
-        cityRemaining.erase(std::find(cityRemaining.begin(), cityRemaining.end(), check));
+        
     }
 }
 
-Path* getMostValuablePath(City* cityStart, std::vector<City*> unvisitedCity) {
-    return nullptr;
-}
